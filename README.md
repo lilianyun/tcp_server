@@ -3,7 +3,7 @@
 一.  编译及运行流程
 进入tcp_server文件夹
 1. make
-2. ./tcp_server or ./tcp_server port. port 是自定义端口，一般要大于1024
+2. ./tcp_server 默认端口为8080，./tcp_server port port 是自定义端口，一般要大于1024
 
 二. tcp session 设计说明
    1. tcp session在文件session.h个session.cpp中(类名为: Session).
